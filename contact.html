@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body class="bg-white">
     <!-- Navigation Bar -->
     <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
@@ -21,10 +23,14 @@
                 <!-- Navigation Links Center -->
                 <ul class="flex flex-wrap justify-center gap-1 py-4 text-sm md:text-base">
                     <li><a href="index.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Home</a></li>
-                    <li><a href="leadership.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Leadership & Vision</a></li>
-                    <li><a href="academic.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Academic Journey</a></li>
-                    <li><a href="research.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Research & Publications</a></li>
-                    <li><a href="consultancy.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Corporate Consultancy</a></li>
+                    <li><a href="leadership.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Leadership &
+                            Vision</a></li>
+                    <li><a href="academic.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Academic
+                            Journey</a></li>
+                    <li><a href="research.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Research &
+                            Publications</a></li>
+                    <li><a href="consultancy.html" class="px-3 py-2 hover:bg-slate-700 transition rounded">Corporate
+                            Consultancy</a></li>
                     <li><a href="contact.html" class="px-3 py-2 bg-slate-700 rounded">Contact</a></li>
                 </ul>
             </div>
@@ -35,17 +41,18 @@
     <div class="bg-gradient-to-r from-slate-900 to-slate-700 text-white py-16 px-4">
         <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-4xl md:text-5xl font-bold mb-4">Get in Touch for Leadership & Consultancy</h1>
-            <p class="text-xl text-slate-200">Professional Inquiries, Speaking Engagements & Collaboration Opportunities</p>
+            <p class="text-xl text-slate-200">Professional Inquiries, Speaking Engagements & Collaboration Opportunities
+            </p>
         </div>
     </div>
 
     <!-- Main Content -->
     <main class="max-w-4xl mx-auto px-4 py-16">
-        
+
         <!-- Contact Information Section -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-slate-900 mb-8 pb-3 border-b-4 border-blue-600">Contact Information</h2>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <!-- Email -->
                 <div class="bg-blue-50 p-8 rounded-lg border-l-4 border-blue-600 hover:shadow-lg transition">
@@ -72,10 +79,8 @@
                         <h3 class="text-xl font-semibold text-slate-900">LinkedIn</h3>
                     </div>
                     <p class="text-slate-700 text-lg">
-                        <a href="https://www.linkedin.com/in/profgadekar/" 
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="text-blue-600 hover:text-blue-800 font-semibold">
+                        <a href="https://www.linkedin.com/in/profgadekar/" target="_blank" rel="noopener noreferrer"
+                            class="text-blue-600 hover:text-blue-800 font-semibold">
                             Professional Profile
                         </a>
                     </p>
@@ -87,84 +92,54 @@
         <!-- Contact Form Section -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-slate-900 mb-8 pb-3 border-b-4 border-green-600">Send a Message</h2>
-            
-            <form action="" method="POST" class="bg-slate-50 p-8 rounded-lg shadow-md border-2 border-slate-200">
+
+            <form action="https://formspree.io/f/mqeabkaw" method="POST"
+                class="bg-slate-50 p-8 rounded-lg shadow-md border-2 border-slate-200">
                 <!-- Name Field -->
                 <div class="mb-6">
                     <label for="name" class="block text-sm font-semibold text-slate-900 mb-2">Full Name *</label>
-                    <input 
-                        type="text" 
-                        id="name" 
-                        name="name" 
-                        required
-                        placeholder="Your Full Name"
-                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition"
-                    >
+                    <input type="text" id="name" name="name" required placeholder="Your Full Name"
+                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition">
                 </div>
 
                 <!-- Organization Field -->
                 <div class="mb-6">
-                    <label for="organization" class="block text-sm font-semibold text-slate-900 mb-2">Organization</label>
-                    <input 
-                        type="text" 
-                        id="organization" 
-                        name="organization" 
-                        placeholder="Your Organization/Institution"
-                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition"
-                    >
+                    <label for="organization"
+                        class="block text-sm font-semibold text-slate-900 mb-2">Organization</label>
+                    <input type="text" id="organization" name="organization" placeholder="Your Organization/Institution"
+                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition">
                 </div>
 
                 <!-- Email Field -->
                 <div class="mb-6">
                     <label for="email" class="block text-sm font-semibold text-slate-900 mb-2">Email Address *</label>
-                    <input 
-                        type="email" 
-                        id="email" 
-                        name="email" 
-                        required
-                        placeholder="your.email@example.com"
-                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition"
-                    >
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com"
+                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition">
                 </div>
 
                 <!-- Subject Field -->
                 <div class="mb-6">
                     <label for="subject" class="block text-sm font-semibold text-slate-900 mb-2">Subject *</label>
-                    <input 
-                        type="text" 
-                        id="subject" 
-                        name="subject" 
-                        required
-                        placeholder="Purpose of your inquiry"
-                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition"
-                    >
+                    <input type="text" id="subject" name="subject" required placeholder="Purpose of your inquiry"
+                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition">
                 </div>
 
                 <!-- Message Field -->
                 <div class="mb-6">
                     <label for="message" class="block text-sm font-semibold text-slate-900 mb-2">Message *</label>
-                    <textarea 
-                        id="message" 
-                        name="message" 
-                        required
-                        rows="6"
+                    <textarea id="message" name="message" required rows="6"
                         placeholder="Please provide details about your inquiry, speaking engagement request, or collaboration opportunity..."
-                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition resize-none"
-                    ></textarea>
+                        class="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-green-600 transition resize-none"></textarea>
                 </div>
 
                 <!-- Submit Button -->
                 <div class="flex gap-4">
-                    <button 
-                        type="submit"
-                        class="flex-1 bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition shadow-md"
-                    >
+                    <button type="submit"
+                        class="flex-1 bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition shadow-md">
                         <i class="fas fa-paper-plane mr-2"></i>Send Message
                     </button>
-                    <button 
-                        type="reset"
-                        class="px-6 bg-slate-300 text-slate-900 font-semibold py-3 rounded-lg hover:bg-slate-400 transition"
-                    >
+                    <button type="reset"
+                        class="px-6 bg-slate-300 text-slate-900 font-semibold py-3 rounded-lg hover:bg-slate-400 transition">
                         Clear
                     </button>
                 </div>
@@ -177,12 +152,14 @@
 
         <!-- Call to Action Section -->
         <section class="mb-16">
-            <div class="bg-gradient-to-r from-green-600 to-emerald-600 p-10 rounded-lg text-white text-center shadow-lg">
+            <div
+                class="bg-gradient-to-r from-green-600 to-emerald-600 p-10 rounded-lg text-white text-center shadow-lg">
                 <h3 class="text-2xl font-bold mb-4">Looking for Academic Leadership or Consulting Services?</h3>
                 <p class="text-green-100 mb-6 text-lg">
                     Reach out to discuss speaking engagements, consulting opportunities, or academic collaborations.
                 </p>
-                <a href="mailto:avgadekar@gmail.com" class="inline-block bg-white text-green-600 px-6 py-3 font-semibold rounded-lg hover:bg-green-50 transition">
+                <a href="mailto:avgadekar@gmail.com"
+                    class="inline-block bg-white text-green-600 px-6 py-3 font-semibold rounded-lg hover:bg-green-50 transition">
                     <i class="fas fa-envelope mr-2"></i>Email Directly
                 </a>
             </div>
@@ -197,4 +174,5 @@
         </div>
     </footer>
 </body>
+
 </html>
